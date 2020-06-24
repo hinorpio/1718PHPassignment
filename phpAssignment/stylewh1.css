@@ -1,0 +1,105 @@
+
+body, html {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#grad {
+    background: linear-gradient(to bottom right, #3399ff 0%, #ff99ff 100%);
+  }
+
+
+.left{
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    border-radius: 15px;
+}
+
+.right{
+    position: absolute;
+    height: 40%;
+    width: 13.3%;
+    left: 10%;
+    bottom: 20%;
+    border-radius: 13px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    cursor: pointer;
+    color: #DB7093;
+    background: white;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*----------------------------------------- */
+
+table {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 95%; 
+    border-collapse: collapse; 
+    border-spacing: 0;
+}
+
+td, th {  
+    border: 1px solid transparent;
+    height: 30px; 
+    transition: all 0.3s;
+}
+
+th {  
+    background: #DFDFDF;
+    font-weight: bold;
+}
+
+td {  
+    background: #FAFAFA;
+    text-align: center;
+}
+   
+td:nth-child(even) {
+     background: #F1F1F1;
+     }   
+
+        
+td:nth-child(odd) {
+     background: #FEFEFE;
+    }  
+
+tr td:hover {
+     background: #666; color: #FFF;
+     } 
+
+p{
+    font-size: 12px;
+}     
+

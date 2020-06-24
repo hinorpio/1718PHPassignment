@@ -1,0 +1,78 @@
+body, html{
+    height: 100%;
+    font-weight: bold;
+}
+
+.bg{
+    background-image: url("ChickenBreast.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.loginpage{
+    width: 320px;
+    height: 500px;
+    background: #000000;
+    color: #ffffff;
+    top: 25%;
+    left: 42%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50px,-50px);
+    border-radius: 20px;
+}
+
+form{
+    margin-left: 40px;
+    
+}
+
+h1 {
+    text-decoration: underline;
+    font-variant: small-caps;
+    font-style: italic;
+    text-align: center;
+}
+
+.loginpage input[type="text"], input[type="password"]{
+    width: 75%;
+    border: none;
+    background: transparent;
+    height: 40px;
+    caret-color: aqua;
+    color: white;
+}
+
+.loginpage input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    color: aquamarine;
+    background: #DB7093;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.loginpage input[type="submit"]:hover
+{
+    cursor: pointer;
+    color: #DB7093;
+    background: white;
+    
+}
+
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.loginpage a{
+    color: darkgoldenrod;
+}
